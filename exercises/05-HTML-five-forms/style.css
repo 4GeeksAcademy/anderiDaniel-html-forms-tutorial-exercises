@@ -34,3 +34,7 @@ input[type="submit"] {
 	color: white;
 	width: 100%;
 }
+
+table, th, td {
+	border: 1px solid black;
+  }

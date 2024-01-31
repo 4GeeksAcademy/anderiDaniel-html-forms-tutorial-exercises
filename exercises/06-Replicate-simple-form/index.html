@@ -1,22 +1,70 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>4Geeks Academy</title>
+		<style>
+			table,
+			th,
+			td {
+				border: 1px solid black;
+			}
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>4Geeks Academy</title>
+			th {
+				background-color: rgb(162, 184, 224);
+			}
+		</style>
+	</head>
 
-    <style>
-        /* your code here */
-        
-    </style>
-</head>
-
-<body>
-    <form>
-        <!-- your code here -->
-        
-    </form>
-</body>
-
+	<body>
+		<form>
+			<table>
+				<tr>
+					<th><strong>Name</strong></th>
+					<th><strong>Value</strong></th>
+				</tr>
+				<tr>
+					<td>Name</td>
+					<td>
+						<form action="">
+							<input type="text" id="fname" name="fname" value="" />
+						</form>
+					</td>
+				</tr>
+				<tr>
+					<td>Sex</td>
+					<td>
+						<form>
+							<input type="radio" id="Male" name="fav_language" value="Male" />
+							<label for="Male">Male</label><br />
+							<input type="radio" id="Female" name="fav_language" value="Female" />
+							<label for="Female">Female</label><br />
+						</form>
+					</td>
+				</tr>
+				<tr>
+					<td>Eye Color</td>
+					<td>
+						<select id="eyeColor" name="eyeColor">
+							<option value="green">green</option>
+							<option value="blue">blue</option>
+							<option value="brown">brown</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Check all that apply</td>
+					<td>Over 6 feet tall, Over 200 punds square selector</td>
+				</tr>
+				<tr>
+					<td>Describe your athletic ability:</td>
+					<td>cuadro de descripcion</td>
+				</tr>
+				<tr>
+					<td>Enter my information boton</td>
+				</tr>
+			</table>
+		</form>
+	</body>
 </html>
